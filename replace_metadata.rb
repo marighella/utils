@@ -3,7 +3,7 @@ require 'psych'
 require 'pry'
 require 'yaml'
 
-repo = '/Users/gcaires/Projects/mst/site-novo/'
+repo = 'absolute/path/folder/with/markdowns'
 files = Dir["#{repo}_posts/**/*.md"]
 files.each do |file|
     puts file
